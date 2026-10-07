@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 5px;
+  width: 70%;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Intentionally missing the .check class to lose points in UI structure styling */
